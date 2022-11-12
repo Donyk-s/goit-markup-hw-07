@@ -1,4 +1,9 @@
 @import'./base/reset';
 @import'./utils/vars';
 @import'./base/container';
-@import'./header';
+@import'./layouts/header/header';
+@import './layouts/header/logo-header';
+@import './layouts/header/contact-header';
+@import './layouts/hero/hero-section';
+@import './layout/hero/hero-title';
+@import './base/hero-button';

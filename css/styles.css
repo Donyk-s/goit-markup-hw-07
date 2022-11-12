@@ -234,10 +234,8 @@ transition: color var(--new-timing-function) var(--timing-function);
   box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 30px;
-
-
-
   }
+
   .button{
     font-family: inherit;
   font-weight: 700;
@@ -257,9 +255,6 @@ transition: color var(--new-timing-function) var(--timing-function);
   .button:hover,
   .button:focus{
     background-color: var(--button-servise);
-   
-    
-
   }
   /*-----The End Hero----*/
 
