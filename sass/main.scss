@@ -1,9 +1,13 @@
-@import'./base/reset';
-@import'./utils/vars';
-@import'./base/container';
-@import'./layouts/header/header';
+@import './base/reset';
+@import './utils/vars';
+@import './base/container';
+@import './utils/hidden';
+@import './layouts/header/header';
 @import './layouts/header/logo-header';
 @import './layouts/header/contact-header';
 @import './layouts/hero/hero-section';
-@import './layout/hero/hero-title';
-@import './base/hero-button';
+@import './layouts/hero/hero-title';
+@import './layouts/features/features';
+@import './layouts/work/work';
+@import './layouts/work/work-txt';
+

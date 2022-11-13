@@ -1,16 +1,37 @@
-  .hero-section{
+ .hero-section{
   padding-top:200px;
   padding-bottom: 200px;
   text-align: center;
   background-color: #C4C4C4;
   }
-  
+
+
+  .button{
+    font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--hover-color);
+  color: var(--background-header);
+    cursor: pointer;
+    padding: 10px 32px;
+    border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+ transition: color var(--new-timing-function) var(--timing-function),
+     background-color var(--new-timing-function) var(--timing-function);
+  }
+  .button:hover,
+  .button:focus{
+    background-color: var(--button-servise);
+  }
   .overlay{
     background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
-    url ("..///images/fon.jpg");
+    url ("..//images/fon.jpg");
     max-width: 1600px;
     background-size: cover;
   background-repeat: no-repeat;

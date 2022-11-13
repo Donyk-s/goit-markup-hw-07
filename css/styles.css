@@ -365,14 +365,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 justify-content: space-around;
 padding-top: 24px;
-
 padding-bottom: 24px;
-
 color: #FFFFFF;
 bottom: 0;
-    
-
   }
+
   .work-title{
   font-weight: 700;
   font-size: 36px;
@@ -380,8 +377,8 @@ bottom: 0;
   text-align: center;
   color: var(--h-color);
   margin-bottom: 50px;
-
   }
+  
   .team {
     background-color: var(--team-background);
     padding-top: 94px;

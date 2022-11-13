@@ -58,33 +58,22 @@ body {
   /* outline: 2px solid red;*/
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
 .page-header {
   border-bottom: 1px solid #ECECEC;
-}
-
-/* Логотип*/
-.logo :hover {
-  color: var(--hover-color);
-}
-
-.logo-part {
-  color: #000000;
-}
-
-.logo-part-footer {
-  color: var(--background-header);
-}
-
-/* ------------ Два кольори лого--------*/
-.icon-logo {
-  color: var(--hover-color);
-  text-decoration: none;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  display: inline-block;
-  width: 145px;
 }
 
 .nav {
@@ -144,6 +133,29 @@ body {
   opacity: 1;
 }
 
+.logo :hover {
+  color: var(--hover-color);
+}
+
+.logo-part {
+  color: #000000;
+}
+
+.logo-part-footer {
+  color: var(--background-header);
+}
+
+.icon-logo {
+  color: var(--hover-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  display: inline-block;
+  width: 145px;
+}
+
 .contacts {
   list-style: none;
   font-weight: 500;
@@ -198,6 +210,37 @@ body {
   background-color: #C4C4C4;
 }
 
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--hover-color);
+  color: var(--background-header);
+  cursor: pointer;
+  padding: 10px 32px;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--button-servise);
+}
+
+.overlay {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url "..//images/fon.jpg";
+  max-width: 1600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+}
+
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -210,4 +253,113 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.features {
+  padding: 94px 0;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.specialty-list {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.specialty-list::before {
+  content: "";
+  height: 120px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  /*outline: 2px solid red;*/
+}
+
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+  background-size: 70px 70px;
+}
+
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+  background-size: 70px 70px;
+}
+
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+  background-size: 70px 70px;
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+  background-size: 70px 70px;
+}
+
+.features-list :last-child {
+  margin: 0;
+}
+
+.specialty {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--h-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.work {
+  padding-bottom: 94px;
+}
+
+.specialty-text {
+  line-height: 1.7;
+  color: var(--p-color);
+  margin-top: 10px;
+}
+
+.work-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.work-pick-tumb {
+  position: relative;
+  display: flex;
+}
+
+.work-pick-txt {
+  position: absolute;
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  justify-content: space-around;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #FFFFFF;
+  bottom: 0;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--h-color);
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
