@@ -261,6 +261,7 @@ body {
 
 .features-list {
   list-style: none;
+  display: flex;
 }
 
 .specialty-list {
@@ -362,4 +363,223 @@ body {
   text-align: center;
   color: var(--h-color);
   margin-bottom: 50px;
+}
+
+.social-list-link {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-list-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AFB1B8;
+  transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function);
+}
+
+.social-list-icon {
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+.team {
+  background-color: var(--team-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-members {
+  background-color: var(--background-header);
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--h-color);
+  white-space: nowrap;
+  margin-bottom: 50px;
+}
+
+.team-list {
+  list-style: none;
+  line-height: 1.18;
+  justify-content: space-around;
+  gap: 30px;
+  display: flex;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--h-color);
+  margin-bottom: 10px;
+}
+
+.team-position {
+  font-size: 16px;
+  text-align: center;
+  color: var(--p-color);
+  margin-bottom: 16px;
+}
+
+.retreat {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--h-color);
+  margin-bottom: 50px;
+}
+
+.client-item {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.client-list {
+  width: calc((100% - 150px) / 6);
+  height: 92px;
+}
+
+.client-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  color: #AFB1B8;
+  transition: color var(--new-timing-function) var(--timing-function), border-color var(--new-timing-function) var(--timing-function);
+}
+
+.client-lis-icon {
+  fill: currentColor;
+}
+
+.client-link:hover,
+.client-link:focus {
+  border-color: #2196F3;
+  color: #2196F3;
+}
+
+.social-list-link-footer {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.contacts-footer {
+  background-color: var(--hero-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contacts-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.contacts-list :last-child {
+  margin-bottom: 0;
+}
+
+.list-link {
+  margin-bottom: 9px;
+}
+
+.contacts-list :hover,
+.contacts-list :focus {
+  color: var(--hover-color);
+}
+
+.contacts-plane {
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--background-header);
+  display: block;
+  transition: color var(--new-timing-function) var(--timing-function);
+}
+
+.mail-footer,
+.tel-footer {
+  color: var(--mail-tel);
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.71;
+  box-sizing: border-box;
+  transition: color var(--new-timing-function) var(--timing-function);
+}
+
+.icon-logo-footer {
+  color: var(--hover-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  display: block;
+  width: 145px;
+  margin-bottom: 20px;
+}
+
+.social-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--new-timing-function) var(--timing-function);
+}
+
+.social-list-icon-footer {
+  fill: var(--background-header);
+}
+
+.social-list-link-footer {
+  transition: background-color var(--new-timing-function) var(--timing-function);
+}
+
+.social-link-footer:hover {
+  background-color: #2196F3;
 }/*# sourceMappingURL=main.css.map */

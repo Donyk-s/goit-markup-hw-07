@@ -427,6 +427,7 @@ bottom: 0;
      transition: color var(--new-timing-function) var(--timing-function),
      background-color var(--new-timing-function) var(--timing-function);
   }
+
   .social-list-icon{
     fill: currentColor;
   }
@@ -434,8 +435,7 @@ bottom: 0;
   .social-link:hover,
   .social-link:focus{
     background-color: #2196F3;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;  
   }
 
 
@@ -467,6 +467,7 @@ bottom: 0;
 
   /*------Footer----*/
 
+  /*
   .contacts-footer{
     background-color: var(--hero-background);
     padding-top: 60px;
@@ -514,6 +515,8 @@ bottom: 0;
     transition: color var(--new-timing-function) var(--timing-function);
      
   }
+*/
+
 
   /*------btn-filter Портфоліо---*/
 
@@ -644,7 +647,7 @@ overflow: auto;
   }
 
   /*----Позиціювання-----*/
-
+/*
   .client{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -695,6 +698,10 @@ overflow: auto;
     gap: 10px;
   
   }
+*/
+
+
+
   .footer-box{
     display: flex;
   flex-wrap: wrap;
@@ -725,6 +732,7 @@ overflow: auto;
   margin-bottom: 20px;
 
   }
+  /*
   .icon-logo-footer{
     color:var(--hover-color);
     text-decoration: none;
@@ -738,7 +746,7 @@ overflow: auto;
   
   }
 
-
+*/
 
   .social-link-footer{
     width: 100%;
@@ -762,6 +770,7 @@ overflow: auto;
 .social-link-footer:hover{
   background-color: #2196F3;
 }
+
 
   .backdrop{
   width: 100%;
