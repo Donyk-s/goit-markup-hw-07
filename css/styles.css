@@ -118,10 +118,9 @@
    
 
   }
-  .nav-list :hover,
-  .nav-list :focus{
+  .nav-link :hover,
+  .nav-link :focus{
     color: var(--hover-color);
- 
   } 
   
   .nav-link{

@@ -58,21 +58,20 @@ padding-left: 28px;
 padding-right:28px ;
 transition:  color var(--new-timing-function) var(--timing-function),
 background-color var(--new-timing-function) var(--timing-function);
-
-}
-.sign-btn:hover,
-.sign-btn:focus{
+&:hover,
+&:focus{
 color: var(--hover-color);
 background-color: var(--background-header);  
+}
 }
 
 .plain{
   fill: var(--background-header);
   margin-left: 10px;
-}
-.sign-btn:hover .plain,
-.sign-btn:focus .plain{
+  .sign-btn:hover &,
+.sign-btn:focus &{
 fill: currentColor ;
+}
 }
 .sign-flex{
   display: flex;

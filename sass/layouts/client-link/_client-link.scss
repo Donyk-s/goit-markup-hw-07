@@ -31,20 +31,16 @@
   color: #AFB1B8;
   transition: color var(--new-timing-function) var(--timing-function),
   border-color var(--new-timing-function) var(--timing-function);
+   &:hover,
+  &:focus{
+    border-color: #2196F3;
+    color: #2196F3;
+  }
+
   }
   .client-lis-icon{
     fill:currentColor;
   
   }
-  .client-link:hover,
-  .client-link:focus{
-    border-color: #2196F3;
-    color: #2196F3;
-  }
-
-  .social-list-link-footer{
-    list-style: none;
-    display: flex;
-    gap: 10px;
+ 
   
-  }

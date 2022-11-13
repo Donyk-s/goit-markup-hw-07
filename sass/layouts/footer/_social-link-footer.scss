@@ -7,16 +7,22 @@
     align-items: center;
     justify-content: center;
     transition: background-color var(--new-timing-function) var(--timing-function);
-    
+    &:hover,
+    &:focus{
+  background-color: #2196F3;
+}
     
   }
+  .social-list-link-footer{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  
+  }
+    .social-list-link-footer{
+ transition: background-color var(--new-timing-function) var(--timing-function);
+}
 
   .social-list-icon-footer{
     fill: var(--background-header);
   }
-  .social-list-link-footer{
- transition: background-color var(--new-timing-function) var(--timing-function);
-}
-.social-link-footer:hover{
-  background-color: #2196F3;
-}

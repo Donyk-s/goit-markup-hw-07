@@ -16,15 +16,9 @@
     display: flex;
     gap: 50px;
     margin-left: 94px;
-   
-
-  }
-  .nav-list :hover,
-  .nav-list :focus{
-    color: var(--hover-color);
  
-  } 
-  
+  }
+
   .nav-link{
   font-weight: 500;
   line-height: 1.14;
@@ -36,6 +30,10 @@
   padding-top: 32px;
   position: relative;
 transition: color var(--new-timing-function) var(--timing-function);
+     &:hover,
+     &:focus{
+    color: var(--hover-color);
+  }
   }
   .current{
     color: var(--hover-color);

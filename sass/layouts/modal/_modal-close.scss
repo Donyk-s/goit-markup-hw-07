@@ -14,11 +14,11 @@
   cursor: pointer;
   transition: color var(--new-timing-function) var(--timing-function),
    background-color var(--new-timing-function) var(--timing-function);
+   &:hover,
+  &:focus{
+color: var(--hover-color);
+  }
 }
 .modal-close-icon{
   fill: currentColor;
 }
-.modal-close:hover,
-  .modal-close:focus{
-color: var(--hover-color);
-  }

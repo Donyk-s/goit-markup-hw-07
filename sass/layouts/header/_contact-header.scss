@@ -18,6 +18,11 @@
     display: flex;
     align-items: center;
     transition: color var(--new-timing-function) var(--timing-function);
+    &:hover,
+  &:focus{
+    color: var(--hover-color);
+    
+  }
   }
   .icon-envelope{
     fill: currentColor;
@@ -35,15 +40,13 @@
     padding-bottom: 32px;
     display: flex;
     transition: color var(--new-timing-function) var(--timing-function);
-
+ &:hover,
+  &:focus{
+    color: var(--hover-color);
+    
+  }
   }
   .icon-smartphone{
     fill: currentColor;
     margin-right:10px ;
-   
-  }
-  .contacts :hover,
-  .contacts :focus{
-    color: var(--hover-color);
-    
   }

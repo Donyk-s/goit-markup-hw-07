@@ -13,8 +13,8 @@
   border-radius: 4px;
  transition: color var(--new-timing-function) var(--timing-function),
      background-color var(--new-timing-function) var(--timing-function);
-  }
-  .button:hover,
-  .button:focus{
+      &:hover,
+  &:focus{
     background-color: var(--button-servise);
+  }
   }

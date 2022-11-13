@@ -24,14 +24,13 @@
     color:#AFB1B8 ;
      transition: color var(--new-timing-function) var(--timing-function),
      background-color var(--new-timing-function) var(--timing-function);
-  }
-  .social-list-icon{
-    fill: currentColor;
-  }
-
-  .social-link:hover,
-  .social-link:focus{
+      &:hover,
+  &:focus{
     background-color: #2196F3;
     color: #FFFFFF;
     
+  }
+  }
+  .social-list-icon{
+    fill: currentColor;
   }

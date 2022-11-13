@@ -93,11 +93,6 @@ body {
   margin-left: 94px;
 }
 
-.nav-list :hover,
-.nav-list :focus {
-  color: var(--hover-color);
-}
-
 .nav-link {
   font-weight: 500;
   line-height: 1.14;
@@ -109,6 +104,9 @@ body {
   padding-top: 32px;
   position: relative;
   transition: color var(--new-timing-function) var(--timing-function);
+}
+.nav-link:hover, .nav-link:focus {
+  color: var(--hover-color);
 }
 
 .current {
@@ -175,6 +173,9 @@ body {
   align-items: center;
   transition: color var(--new-timing-function) var(--timing-function);
 }
+.mail:hover, .mail:focus {
+  color: var(--hover-color);
+}
 
 .icon-envelope {
   fill: currentColor;
@@ -192,15 +193,13 @@ body {
   display: flex;
   transition: color var(--new-timing-function) var(--timing-function);
 }
+.tel:hover, .tel:focus {
+  color: var(--hover-color);
+}
 
 .icon-smartphone {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.contacts :hover,
-.contacts :focus {
-  color: var(--hover-color);
 }
 
 .hero-section {
@@ -208,27 +207,6 @@ body {
   padding-bottom: 200px;
   text-align: center;
   background-color: #C4C4C4;
-}
-
-.button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  background-color: var(--hover-color);
-  color: var(--background-header);
-  cursor: pointer;
-  padding: 10px 32px;
-  border-color: transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function);
-}
-
-.button:hover,
-.button:focus {
-  background-color: var(--button-servise);
 }
 
 .overlay {
@@ -253,6 +231,25 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--hover-color);
+  color: var(--background-header);
+  cursor: pointer;
+  padding: 10px 32px;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function);
+}
+.button:hover, .button:focus {
+  background-color: var(--button-servise);
 }
 
 .features {
@@ -389,15 +386,13 @@ body {
   color: #AFB1B8;
   transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function);
 }
+.social-link:hover, .social-link:focus {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
 
 .social-list-icon {
   fill: currentColor;
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: #2196F3;
-  color: #FFFFFF;
 }
 
 .team {
@@ -487,21 +482,13 @@ body {
   color: #AFB1B8;
   transition: color var(--new-timing-function) var(--timing-function), border-color var(--new-timing-function) var(--timing-function);
 }
-
-.client-lis-icon {
-  fill: currentColor;
-}
-
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   border-color: #2196F3;
   color: #2196F3;
 }
 
-.social-list-link-footer {
-  list-style: none;
-  display: flex;
-  gap: 10px;
+.client-lis-icon {
+  fill: currentColor;
 }
 
 .contacts-footer {
@@ -516,6 +503,9 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
 }
+.contacts-list :hover, .contacts-list :focus {
+  color: var(--hover-color);
+}
 
 .contacts-list :last-child {
   margin-bottom: 0;
@@ -523,11 +513,6 @@ body {
 
 .list-link {
   margin-bottom: 9px;
-}
-
-.contacts-list :hover,
-.contacts-list :focus {
-  color: var(--hover-color);
 }
 
 .contacts-plane {
@@ -571,17 +556,22 @@ body {
   justify-content: center;
   transition: background-color var(--new-timing-function) var(--timing-function);
 }
+.social-link-footer:hover, .social-link-footer:focus {
+  background-color: #2196F3;
+}
 
-.social-list-icon-footer {
-  fill: var(--background-header);
+.social-list-link-footer {
+  list-style: none;
+  display: flex;
+  gap: 10px;
 }
 
 .social-list-link-footer {
   transition: background-color var(--new-timing-function) var(--timing-function);
 }
 
-.social-link-footer:hover {
-  background-color: #2196F3;
+.social-list-icon-footer {
+  fill: var(--background-header);
 }
 
 .footer-box {
@@ -690,9 +680,7 @@ body {
   padding-right: 28px;
   transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function);
 }
-
-.sign-btn:hover,
-.sign-btn:focus {
+.sign-btn:hover, .sign-btn:focus {
   color: var(--hover-color);
   background-color: var(--background-header);
 }
@@ -701,9 +689,7 @@ body {
   fill: var(--background-header);
   margin-left: 10px;
 }
-
-.sign-btn:hover .plain,
-.sign-btn:focus .plain {
+.sign-btn:hover .plain, .sign-btn:focus .plain {
   fill: currentColor;
 }
 
@@ -757,14 +743,12 @@ body {
   cursor: pointer;
   transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function);
 }
+.modal-close:hover, .modal-close:focus {
+  color: var(--hover-color);
+}
 
 .modal-close-icon {
   fill: currentColor;
-}
-
-.modal-close:hover,
-.modal-close:focus {
-  color: var(--hover-color);
 }
 
 .backdrop.is-hidden {
@@ -1068,9 +1052,7 @@ body {
   padding-right: 22px;
   transition: color var(--new-timing-function) var(--timing-function), background-color var(--new-timing-function) var(--timing-function), box-shadow var(--new-timing-function) var(--timing-function);
 }
-
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   color: var(--background-header);
   background: var(--hover-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1139,9 +1121,7 @@ body {
   text-decoration: none;
   transition: box-shadow var(--new-timing-function) var(--timing-function);
 }
-
-.portfol-link:hover,
-.portfol-link:focus {
+.portfol-link:hover, .portfol-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: transform var(--new-timing-function) var(--timing-function);
 }
