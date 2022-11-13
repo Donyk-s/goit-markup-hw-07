@@ -551,8 +551,6 @@ bottom: 0;
     display: flex;
     gap: 8px;
     justify-content: center;
-
-
   }
 
   .btn-list{
@@ -570,7 +568,7 @@ bottom: 0;
   }
   .portfol-list{
   flex-basis: calc((100% - 60px) / 3);
-  }
+  }/*
 .portfol-list :hover .portfol-over{
 transform: translateY(0);
 
@@ -598,7 +596,7 @@ transform: translateY(100%);
 transition: transform var(--new-timing-function) var(--timing-function);
 overflow: auto;
 }
-
+*/
   .potfol{
     list-style: none;
     flex-wrap: wrap;
@@ -701,7 +699,7 @@ overflow: auto;
 */
 
 
-
+/*
   .footer-box{
     display: flex;
   flex-wrap: wrap;
@@ -732,6 +730,7 @@ overflow: auto;
   margin-bottom: 20px;
 
   }
+  */
   /*
   .icon-logo-footer{
     color:var(--hover-color);
@@ -747,7 +746,7 @@ overflow: auto;
   }
 
 */
-
+/*
   .social-link-footer{
     width: 100%;
     height: 100%;
@@ -770,8 +769,8 @@ overflow: auto;
 .social-link-footer:hover{
   background-color: #2196F3;
 }
-
-
+*/
+/*
   .backdrop{
   width: 100%;
   height: 100%;
@@ -780,7 +779,8 @@ overflow: auto;
   top: 0;
 transition: opacity var(--new-timing-function) var(--timing-function), visibility var(--new-timing-function) var(--timing-function);
   }
-
+*/
+/*
   .modal {
   width: 528px;
   min-height: 581px;
@@ -802,8 +802,8 @@ padding: 40px;
   transform: translate(-50%, -50%) scale(0);
  
 }
-
-
+*/
+/*
 .modal-close{
   width: 30px;
   height: 30px;
@@ -825,18 +825,21 @@ padding: 40px;
   fill: currentColor;
   
 }
-
-
+*/
+/*
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-
+*/
+/*
   .modal-close:hover,
   .modal-close:focus{
 color: var(--hover-color);
   }
+  */
+  /*
 .modal-title{
 font-weight: 700;
 font-size: 20px;
@@ -947,6 +950,7 @@ outline: transparent;
 .user-post:hover +.icon-person{
   fill: var(--hover-color);
 }
+*/
 .deal-check{
   display: flex;
    align-items: center;
@@ -981,10 +985,6 @@ color: var(--p-color);
   fill: var(--background-header);
   background-color: var(--hover-color);
   border: transparent;
-}
-
-.check-inp:not(:checked) + .check span{
-  background-color: var(--team-background);
 }
 
 
@@ -1060,7 +1060,7 @@ transition: background var(--new-timing-function) var(--timing-function);
  .submit:hover{
   background: var(--button-servise);
  }   
-
+/*
  .footer-input{
 font-style: normal;
 font-weight: 700;
