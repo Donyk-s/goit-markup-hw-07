@@ -15,7 +15,7 @@ border: transparent;
 
 color: var(--background-header);
 transition: background var(--new-timing-function) var(--timing-function);
- }
- .submit:hover{
+ &:hover{
   background: var(--button-servise);
- }
+ } 
+}

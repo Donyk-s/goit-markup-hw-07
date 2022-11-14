@@ -131,10 +131,6 @@ body {
   opacity: 1;
 }
 
-.logo :hover {
-  color: var(--hover-color);
-}
-
 .logo-part {
   color: #000000;
 }
@@ -798,9 +794,7 @@ body {
   transition: border-color var(--new-timing-function) var(--timing-function);
   outline: transparent;
 }
-
-.client-name-txt:hover,
-.client-name-txt:focus {
+.client-name-txt:hover, .client-name-txt:focus {
   border-color: var(--hover-color);
 }
 
@@ -810,9 +804,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-
-.client-name-txt:focus + .icon-person,
-.client-name-txt:hover + .icon-person {
+.client-name-txt:focus + .icon-person, .client-name-txt:hover + .icon-person {
   fill: var(--hover-color);
 }
 
@@ -834,14 +826,7 @@ body {
   transition: border-color var(--new-timing-function) var(--timing-function);
   outline: transparent;
 }
-
-.user-tel:hover,
-.user-tel:focus {
-  border-color: var(--hover-color);
-}
-
-.user-tel:focus + .icon-person,
-.user-tel:hover + .icon-person {
+.user-tel:focus + .icon-person, .user-tel:hover + .icon-person {
   fill: var(--hover-color);
 }
 
@@ -863,15 +848,8 @@ body {
   transition: border-color var(--new-timing-function) var(--timing-function);
   outline: transparent;
 }
-
-.user-post:hover,
-.user-post:focus {
+.user-post:hover, .user-post:focus {
   border-color: var(--hover-color);
-}
-
-.user-post:focus + .icon-person,
-.user-post:hover + .icon-person {
-  fill: var(--hover-color);
 }
 
 .link-input {
@@ -882,7 +860,6 @@ body {
   color: var(--hover-color);
   transition: color var(--new-timing-function) var(--timing-function);
 }
-
 .link-input:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   text-decoration: none;
@@ -909,26 +886,21 @@ body {
   transition: border-color var(--new-timing-function) var(--timing-function);
   outline: transparent;
 }
-
-.feedback-txt:hover,
-.feedback-txt:focus {
+.feedback-txt:hover, .feedback-txt:focus {
   border-color: var(--hover-color);
 }
-
 .feedback-txt::-moz-placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .feedback-txt:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .feedback-txt::placeholder {
   font-size: 12px;
   line-height: 1.16;
@@ -965,51 +937,12 @@ body {
   transform: translateY(-50%);
   left: 9px;
 }
-
 .check-inp:checked + .check span {
   fill: var(--background-header);
   background-color: var(--hover-color);
   border: transparent;
 }
-
-.deal-check {
-  display: flex;
-  align-items: center;
-  fill: transparent;
-  padding-left: 12px;
-  justify-content: center;
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.checkbox {
-  line-height: 1.71;
-  color: var(--p-color);
-}
-
-.check span {
-  border-radius: 2px;
-  border: 2px solid var(--h-color);
-  width: 16px;
-  height: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: transparent;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 9px;
-}
-
-.check-inp:checked + .check span {
-  fill: var(--background-header);
-  background-color: var(--hover-color);
-  border: transparent;
-}
-
-.check-inp:hover + .check span,
-.check-inp:focus + .check span {
+.check-inp:hover + .check span, .check-inp:focus + .check span {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 2px 1px rgba(0, 0, 0, 0.3);
   border-color: var(--hover-color);
 }
@@ -1031,7 +964,6 @@ body {
   color: var(--background-header);
   transition: background var(--new-timing-function) var(--timing-function);
 }
-
 .submit:hover {
   background: var(--button-servise);
 }
@@ -1089,10 +1021,6 @@ body {
   margin-top: 50px;
 }
 
-.portfol-list :hover .portfol-over {
-  transform: translateY(0);
-}
-
 .portfol-over-top {
   position: relative;
   overflow: hidden;
@@ -1114,6 +1042,9 @@ body {
   transform: translateY(100%);
   transition: transform var(--new-timing-function) var(--timing-function);
   overflow: auto;
+}
+.portfol-list :hover .portfol-over {
+  transform: translateY(0);
 }
 
 .portfol-link {

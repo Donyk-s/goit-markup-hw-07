@@ -6,11 +6,11 @@ font-size: 14px;
 line-height: 1.71px;
 color: var(--hover-color);
 transition: color var(--new-timing-function) var(--timing-function);
-
-}
-.link-input:hover{
+&:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
 text-decoration: none;
+}
+
 }
 
 .input-feedback{
@@ -31,15 +31,15 @@ width: 100%;
 height: 120px;
 transition: border-color var(--new-timing-function) var(--timing-function);
 outline: transparent;
+&:hover,
+&:focus{
+ border-color: var(--hover-color);
 }
-.feedback-txt:hover,
-.feedback-txt:focus{
- border-color: var(--hover-color); 
-}
-.feedback-txt::placeholder{
+&::placeholder{
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
-
 }
+}
+

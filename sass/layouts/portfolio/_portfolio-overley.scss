@@ -1,7 +1,4 @@
-.portfol-list :hover .portfol-over{
-transform: translateY(0);
 
-}
 .portfol-over-top{
     position: relative; 
     overflow: hidden;
@@ -24,4 +21,8 @@ height: 100%;
 transform: translateY(100%);
 transition: transform var(--new-timing-function) var(--timing-function);
 overflow: auto;
+.portfol-list :hover &{
+transform: translateY(0);
+
+}
 }
