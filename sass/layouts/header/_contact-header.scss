@@ -1,4 +1,4 @@
-.contacts{
+.contact__header{
     list-style: none;
   font-weight: 500;
   display: flex;
@@ -7,7 +7,7 @@
   }
 
 
-  .mail{
+  .contacts__mail{
     color: var(--p-color);
     text-decoration: none;
     font-style: normal;
@@ -30,7 +30,7 @@
   }
     
   
-  .tel{
+  .contacts__tel{
   color: var(--p-color);
     text-decoration: none;
     font-style: normal;

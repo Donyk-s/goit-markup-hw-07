@@ -1,19 +1,21 @@
  .work{
     padding-bottom: 94px;
   }
-  .specialty-text {
-  line-height: 1.7;
-  color: var(--p-color);
-  margin-top: 10px;
-  }
-  .work-list{
+
+  .work__list{
     list-style: none;
     display: flex;
     justify-content: space-around;
   gap: 30px;
 
   }
-  .work-pick-tumb{
+  .work__pick-tumb{
     position: relative;
     display: flex;
+  }
+  .work__container{
+   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; 
   }

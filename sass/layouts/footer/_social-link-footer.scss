@@ -13,11 +13,17 @@
 }
     
   }
+   .social-list-item{
+    width: 44px;
+    height: 44px;
+      border-radius: 50%;
+    
+  }
   .social-list-link-footer{
     list-style: none;
     display: flex;
     gap: 10px;
-  
+     justify-content: center;
   }
     .social-list-link-footer{
  transition: background-color var(--new-timing-function) var(--timing-function);
